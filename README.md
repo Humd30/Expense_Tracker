@@ -14,4 +14,4 @@ A responsive expense tracking app built with Flutter, featuring:
 ## 🚀 Getting Started
 1. Clone the repo  
 ```bash
-git clone https://github.com/Humd30/Expense-Tracker.git
+git clone https://github.com/Humd30/Expense_Tracker.git
