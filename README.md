@@ -8,7 +8,7 @@ A clean and intuitive expense tracker app built using **Flutter**. Easily record
 - 📊 Visualize weekly spending with a bar chart
 - 🕹️ Real-time balance updates
 - 🎨 Responsive and clean UI using Flutter widgets
-- 🌗 Dark/light mode support (if implemented)
+- 🌗 Dark/light mode support
 
 
 ## Getting Started :-
