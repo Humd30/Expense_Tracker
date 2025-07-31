@@ -49,6 +49,10 @@ class _MyAppState extends State<MyApp> {
       darkTheme: ThemeData.dark().copyWith(
         useMaterial3: true,
         colorScheme: kDarkColorScheme,
+        appBarTheme: AppBarTheme().copyWith(
+          backgroundColor: kDarkColorScheme.onPrimaryContainer,
+          foregroundColor: kDarkColorScheme.primaryContainer,
+        ),
         cardTheme: CardThemeData().copyWith(
           color: kDarkColorScheme.secondaryContainer,
           margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -57,6 +61,13 @@ class _MyAppState extends State<MyApp> {
           style: ElevatedButton.styleFrom(
             backgroundColor: kDarkColorScheme.primaryContainer,
             foregroundColor: kDarkColorScheme.onPrimaryContainer,
+          ),
+        ),
+        textTheme: ThemeData.dark().textTheme.copyWith(
+          titleLarge: TextStyle(
+            fontWeight: FontWeight.normal,
+            color: kDarkColorScheme.onSecondaryContainer,
+            fontSize: 14,
           ),
         ),
       ),
